@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    [data-theme="light"] h1 {
+      @apply  font-semibold text-gray-900; /* Default for light mode */
+    }
+  
+    [data-theme="dark"] h1 {
+      @apply   text-gray-100; /* Styling for dark mode */
+    }
+  }
+
+ 
